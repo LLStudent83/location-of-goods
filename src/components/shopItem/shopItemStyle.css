@@ -1,0 +1,42 @@
+.shopItem {
+    width: 25%;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    margin: 10px 25px;
+    padding: 20px 20px;
+}
+
+.shopItem__img {
+    max-width: 100%;
+}
+
+.shopItem__header {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.shopItem__characteristic {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align:center;
+}
+
+.shopItem__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopItem__price {
+    color: #e4928a;
+    margin-right: 20px;
+}
+
+.shopItem__button {
+    border-radius: 10px;
+    border: 1px solid #e4928a;
+    color: #e4928a;
+    font-size: 10px;
+    font-weight: bold;
+}
